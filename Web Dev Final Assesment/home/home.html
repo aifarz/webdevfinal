@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Musicly</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="display-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Artist</a></li>
+                <li><a href="#">Subscription</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <!--<div class="content">-->
+            <!--<div class="left-col">
+                <h1><br />Soul<br />Sound</h1>
+            </div>-->
+                <div class="music-container" id="music-container">
+                    <div class="music-info">
+                      <h4 id="title"></h4>
+                      <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                      </div>
+                    </div>
+              
+                    <audio src="img/position.mp3" id="audio"></audio>
+              
+                    <div class="img-container">
+                      <img src="img/position.png" alt="music-cover" id="cover" />
+                    </div>
+                    <div class="navigation">
+                      <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                      </button>
+                      <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                      </button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
